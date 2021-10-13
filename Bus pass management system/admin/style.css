@@ -1,0 +1,161 @@
+:root{
+    --main-color:#00008f;
+    --color-dark:#1D2231;
+    --text-grey:#8390A2;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'poppins','Lucida Sans', 'Lucida Sans Regular';
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none; 
+}
+.sidebar{
+    width: 345px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: var(--main-color);
+    z-index: 100;
+    transition: 0.5s;
+    transition-property: background;
+}
+.sidebar-brand{
+    height: 90px;
+    padding:20px;
+    color: #fff;
+}
+.sidebar-brand span{
+    display: inline-block;
+    padding-right: 1rem;
+}
+.sidebar-menu{
+    margin-top: 1px;
+}
+.sidebar-menu li{
+    width: 100%;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+.sidebar-menu a{
+    padding-left: 1rem;
+        display: block;
+        color: #fff;
+        font-size: 1.2rem;
+}
+.sidebar-menu a:hover{
+    color: var(--main-color);
+    background: #f1f5f9;
+    border-radius: 5px;
+}
+
+.sidebar-menu a i{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+#nav-toggle:checked + .sidebar{
+    width: 70px;
+}
+#nav-toggle:checked + .sidebar li a{
+    padding-left: 0rem;
+    text-align: center;
+}
+#nav-toggle:checked +  .sidebar .sidebar-menu li a span{
+     display: none;
+}
+.sidebar-menu a.active{
+    background: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--main-color);
+    border-radius: 30px 0px 0px 30px;
+}
+#nav-toggle:checked ~ .main-content{
+    margin-left: 70px;
+}
+#nav-toggle:checked ~ .main-content header{
+    width: calc(100% - 70px);
+    left: 70px;
+}
+.main-content{
+    transition: margin-left 300ms;
+    margin-left:345px;
+}
+header{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.2);
+    position: fixed;
+    left: 345px;
+    width: calc(100% - 345px);
+    top: 0;
+    z-index: 100;
+    transition: width 300ms;
+}
+header h2{
+    color: #222;
+}
+header label i{
+    font-size: 1.7rem;
+    padding-right: 1rem;
+}
+.user-wrapper{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.user-wrapper img{
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+.user-wrapper small{
+    display: inline-block;
+    color: var(--text-grey);
+}
+.logout button{
+    text-decoration: none;
+    margin-left: 15px;
+    width: 100px;
+    height: 30px;
+    background-color:white;
+    border-radius: 5px;
+    font-size: medium;
+    align-items: center;
+}
+.logout button a{
+    color: var(--main-color);
+}
+main{
+    margin-top: 85px;
+    padding: 2rem 1.5rem;
+    background: #f1f5f9;
+    min-height: calc(100vh - 90px);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:2rem;
+    margin-top: 1rem;
+}
+.card-single{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 2px;
+}
+.card-single div:last-child i{
+         color: var(--main-color);
+         font-size: 3rem;
+}
+.card-single div:first-child i{
+    color: var(--text-grey);
+}
+
+
+
+

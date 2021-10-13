@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:#00008f;
+    max-width: 100%;
+    height: auto;
+}
+#nav{
+    display: flex;
+    background-size: cover;
+    font-size: large;
+    margin-left: 50px;
+    padding-left: 30px;
+
+}
+
+#nav a{
+    text-decoration: none;
+    padding:20px;
+    color:white;
+}
+#nav a:hover{
+    color:orange;
+    background-color: black;
+}
+
+.head1{
+    color:orange;
+    padding-top: 50px;
+    margin: 50px;
+    margin-left: 60px;
+}
+.menu-sec{
+    padding: 10px;
+    color:white;
+    padding-right: 30px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.resize{
+      height: 60vh;
+      float: right;
+      margin-top: 30px;
+      margin-right: 90px;
+}
+
+.about-sec{
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 50px 150px;
+    padding: 20px;
+    width: 80vw;
+    text-align: center;  
+    color:black;
+    background-color: white;
+    box-shadow: 2px 3px 20px black;
+    border-radius: 10px;
+}
+#about h1 {
+    text-decoration: underline;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.contact {
+    text-align: center;
+    padding: 1px;
+}
+.contact h1 {
+    text-decoration: underline;
+    font-size: 40px;
+    color: white;
+}
+
+button {
+    width: 150px;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    height: 40px;
+    margin: 20px;
+    font-size: medium;
+    align-items: center;
+}
+
+button:hover {
+    box-shadow: 2px 3px 20px black;
+}
+footer {
+	text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin-top: 60px;
+}
+.small{
+    color: orange;
+    font-size: larger;
+}
+.admin_head{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+.forms{
+    width:380px;
+    height: 350px;
+    margin-left: 430px;
+    color: white;
+    background: black;
+    border-radius: 20px;
+    padding: 25px;
+}
+.forms a{
+     text-decoration: none;
+}
+.forms a:hover{
+      color: orange;
+}
+.keep{
+    padding-right: 20px;
+}
+.lost{
+    padding-left: 80px;
+}
+input[type=text]{
+    width: 100%;
+    font-size: 25px;
+    font-family: cursive;
+}
+input[type=password]{
+    width: 100%;
+    font-size: 25px;
+}
+input[type=submit]{
+    width: 90%;
+    font-size: 25px;
+    border-radius: 4px;
+    font-family: cursive;
+    color: orange;
+    background-color: blue;
+}
+
+
+

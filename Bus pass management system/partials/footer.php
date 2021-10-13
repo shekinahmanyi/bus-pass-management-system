@@ -1,0 +1,1 @@
+<small class="small">&copy; <?php echo date('Y'); ?> Bus pass management system PX. V1.0.0</small>
