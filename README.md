@@ -1,2 +1,6 @@
 # Bus-pass-management-system
-This is a php project that helps you book a bus online. To use make sure you have a waamp or xaamp installed on your machine. import the database and connect
+This is a php project that helps you book a bus online. To use make sure you have a waamp or xaamp installed on your machine.
+# Project setup
+Install xaamp or waamp server.
+Import the database.
+Establish the connection and run
