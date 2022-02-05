@@ -1,5 +1,5 @@
 # Bus-Pass-Management-System
-This is a php project that helps you book a bus online at your own convieniency.
+This is a php project that helps you book a bus online at your own convieniency and anytime you wish.
 To use make sure you have a waamp or xaamp installed on your machine.
 # Project Setup
 Install Xaamp or Waamp server.
