@@ -3,6 +3,6 @@ This is a php project that helps you book a bus online at your own convieniency 
 To use make sure you have a waamp or xaamp installed on your machine.
 # Project Setup
 Install Xaamp or Waamp server.
-Import the database.
+Import the database for the connection.
 Establish the connection between the database and run.
 Also get the password to login from the folder to enter into the admin's dashboard..
